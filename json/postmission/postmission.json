@@ -820,8 +820,8 @@ Find the exact location by using your map and locate the ICA icon."
 				"QuitGameConfirmationProgressLoss" = "Current level progress will be lost, when quitting the game. Do you want to continue?"
 				"RequiresProfile" = "You need to create a new profile or load an existing profile before entering the main menu."
 				"RequiresProfileXenon" = "You need to create a new career or load an existing career before entering the main menu."
-				"RestartConfirmation" = "Current level progress will be lost, when restarting the level. Do you want to continue?"
-				"RestartConfirmationSaveGameLoss" = "Current level progress and any ingame save games will be lost, when restarting the level. Do you want to continue?"
+				"RestartConfirmation" = "Вiдомостi про проходження рiвня та збереженi iгри будуть втраченi. Почати рiвень спочатку?"
+				"RestartConfirmationSaveGameLoss" = "Вiдомостi про проходження рiвня та збереженi iгри будуть втраченi. Почати рiвень спочатку?"
 				"Rookie_PC" = "-Infinite Saves
 -Accommodating AI
 -Full Agency Assistance
