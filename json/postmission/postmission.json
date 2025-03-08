@@ -195,7 +195,7 @@ ABOUT SPEAKING UP.
 BRIBING CIVILIANS LOWERS
 YOUR NOTORIETY A LITTLE
 (15 POINTS)."
-				"txtBribeCiviTitle" = "BRIBE CIVILIANS:"
+				"txtBribeCiviTitle" = "ПIДКУПИТИ СВIДКIВ:"
 				"txtBribeIdentityText" = "GOVERNMENT AND LAW 
 ENFORCEMENT RECORDS WILL
 BE WIPED. WITNESSES WILL
@@ -206,7 +206,7 @@ WILL SIMPLY CEASE TO EXIST.
 ACQUIRING A NEW IDENTITY
 WILL RESET YOUR NOTORIETY
 RATING (UP TO 100 POINTS)."
-				"txtBribeIdentityTitle" = "NEW IDENTITY:"
+				"txtBribeIdentityTitle" = "НОВА IДЕНТИЧНIСТЬ:"
 				"txtBribePoliceText" = "THE LOCAL CHIEF OF POLICE
 WILL ENSURE THAT 
 INCRIMINATING EVIDENCE 
@@ -223,11 +223,11 @@ NOTORIETY SIGNIFICANTLY
 			]
 			"AvailableFunds" = "AVAILABLE FUNDS: %i"
 			"BackSpace" = "BACK SPACE"
-			"BribeChiefOfPolice" = "BRIBE CHIEF OF POLICE"
-			"BribeCivi" = "BRIBE CIVILIANS"
+			"BribeChiefOfPolice" = "ПIДКУПИТИ ШЕФА ПОЛIЦIЁ"
+			"BribeCivi" = "ПIДКУПИТИ СВIДКIВ"
 			"BribeMenus" [
 				"AquireNewId" = "Acquire new identity"
-				"BribeCiv" = "Bribe Civilians"
+				"BribeCiv" = "Підкупити свідків"
 				"BribeCivBox" = "Locals who’ve seen or heard you will grow suddenly forgetful.  Memories will fade.  Potential witnesses will think twice about speaking up.  
 Bribing civilians lowers your notoriety a little."
 				"BribeLocPol" = "Bribe local police"

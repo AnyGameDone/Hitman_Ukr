@@ -9782,7 +9782,7 @@
             {
               "name": "Description",
               "org_tbyte": 9,
-              "value": "Торт з волоськими горiхами, вiскi i цукровою глазур'ю, один з улюблених ласощiв Скiпу Малдуна. У ньому вже вистачаэ вiскi, але його можна \"накачати\" i чимось цiкавiше.",
+              "value": "Торт з волоськими горiхами, вiскi i цукровою глазур'ю, один з улюблених ласощiв Скiпу Малдуна. У ньому вже вистачаэ вiскi, але його можна \"накачати\" i чимось цiкавiшим.",
               "numChildren": 0,
               "type": "data"
             },
@@ -9817,14 +9817,14 @@
             {
               "name": "LongName",
               "org_tbyte": 9,
-              "value": "ЯЩИК З СОДОЙ",
+              "value": "ЯЩИК З СОДОЮ",
               "numChildren": 0,
               "type": "data"
             },
             {
               "name": "ShortName",
               "org_tbyte": 9,
-              "value": "ЯЩИК З СОДОЙ",
+              "value": "ЯЩИК З СОДОЮ",
               "numChildren": 0,
               "type": "data"
             }
@@ -9901,7 +9901,7 @@
             {
               "name": "LongName",
               "org_tbyte": 9,
-              "value": "КУХОННА ЯЩИКА",
+              "value": "КУХОННИЙ ЯЩИК",
               "numChildren": 0,
               "type": "data"
             },
@@ -9957,14 +9957,14 @@
             {
               "name": "LongName",
               "org_tbyte": 9,
-              "value": "ФУТЛЯР ДЛЯ ГРУНТУВАННЯ",
+              "value": "ФУТЛЯР ДЛЯ ГВИНТІВКИ",
               "numChildren": 0,
               "type": "data"
             },
             {
               "name": "ShortName",
               "org_tbyte": 9,
-              "value": "ФУТЛЯР ДЛЯ ГРУНТУВАННЯ",
+              "value": "ФУТЛЯР ДЛЯ ГВИНТІВКИ",
               "numChildren": 0,
               "type": "data"
             }
@@ -9985,14 +9985,14 @@
             {
               "name": "LongName",
               "org_tbyte": 9,
-              "value": "ФУТЛЯР ДЛЯ ГРУНТУВАННЯ",
+              "value": "ФУТЛЯР ДЛЯ ГВИНТІВКИ",
               "numChildren": 0,
               "type": "data"
             },
             {
               "name": "ShortName",
               "org_tbyte": 9,
-              "value": "ФУТЛЯР ДЛЯ ГРУНТУВАННЯ",
+              "value": "ФУТЛЯР ДЛЯ ГВИНТІВКИ",
               "numChildren": 0,
               "type": "data"
             }
@@ -10013,14 +10013,14 @@
             {
               "name": "Longname",
               "org_tbyte": 9,
-              "value": "ФУТЛЯР ДЛЯ ГРУНТУВАННЯ",
+              "value": "ФУТЛЯР ДЛЯ ГВИНТІВКИ",
               "numChildren": 0,
               "type": "data"
             },
             {
               "name": "Shortname",
               "org_tbyte": 9,
-              "value": "ФУТЛЯР ДЛЯ ГРУНТУВАННЯ",
+              "value": "ФУТЛЯР ДЛЯ ГВИНТІВКИ",
               "numChildren": 0,
               "type": "data"
             }
@@ -10048,7 +10048,7 @@
             {
               "name": "Shortname",
               "org_tbyte": 9,
-              "value": "ТУРИСТСЬКИЙ Валiза",
+              "value": "ТУРИСТСЬКА Валiза",
               "numChildren": 0,
               "type": "data"
             }
@@ -15137,7 +15137,7 @@
             {
               "name": "Staircase",
               "org_tbyte": 9,
-              "value": "СТУПЕНI",
+              "value": "СХОДИ",
               "numChildren": 0,
               "type": "data"
             },
@@ -16332,7 +16332,7 @@
                             {
                               "name": "All_F_G_V_T_HMA_01G",
                               "org_tbyte": 41,
-                              "value": "Що? Сечi його!",
+                              "value": "Що? Мочи його!",
                               "numChildren": 0,
                               "type": "data"
                             }
@@ -19538,7 +19538,7 @@
                             {
                               "name": "All_G_G_V_T_HMA_01G",
                               "org_tbyte": 41,
-                              "value": "Якого бiса? Сечi його!",
+                              "value": "Якого бiса? Мочи його!",
                               "numChildren": 0,
                               "type": "data"
                             }
@@ -22135,7 +22135,7 @@
                             {
                               "name": "All_ST_G_V_T_HMA_01G",
                               "org_tbyte": 41,
-                              "value": "Якого бiса? Сечi його!",
+                              "value": "Якого бiса? Мочи його!",
                               "numChildren": 0,
                               "type": "data"
                             }
@@ -22198,7 +22198,7 @@
                             {
                               "name": "All_ST_G_V_Tres_1W_03G",
                               "org_tbyte": 41,
-                              "value": "Ходу нi, друже.",
+                              "value": "Ходу нема, друже.",
                               "numChildren": 0,
                               "type": "data"
                             }
@@ -23612,7 +23612,7 @@
                             {
                               "name": "All_S_G_V_T_HMA_01G",
                               "org_tbyte": 41,
-                              "value": "Що? Сечi його!",
+                              "value": "Що? Мочи його!",
                               "numChildren": 0,
                               "type": "data"
                             }
