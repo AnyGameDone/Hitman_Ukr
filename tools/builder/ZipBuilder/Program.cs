@@ -9,7 +9,7 @@ namespace ZipBuilder
     {
         static string localPath = ".";
         static void Main()
-        {
+        {         
             if (Directory.Exists(localPath + "\\loc"))
             {
                 Directory.Delete(localPath + "\\loc", true);
@@ -22,6 +22,165 @@ namespace ZipBuilder
             UpdateZip();
 
             Directory.Delete(localPath + "\\loc", true);
+        }
+
+        static void UpdateFullKeys(HLocClass node, string parentKey = "")
+        {
+            node.FullKey = string.IsNullOrEmpty(parentKey) ? node.name : $"{parentKey}.{node.name}";
+
+            if (node.children != null)
+            {
+                foreach (var child in node.children)
+                {
+                    UpdateFullKeys(child, node.FullKey);
+                }
+            }
+        }
+
+        public static void UpdatePermissionValues(PremissionHLocClass permissionRoot, HLocClass hLocRoot)
+        {
+            // Створюємо швидкий доступ до HLocClass через FullKey
+            var hLocMap = new Dictionary<string, HLocClass>();
+            PopulateHLocDictionary(hLocRoot, hLocMap);
+
+            // Оновлюємо значення в PremissionHLocClass
+            UpdateValues(permissionRoot, hLocMap);
+        }
+
+        // Метод для заповнення словника FullKey → HLocClass
+        private static void PopulateHLocDictionary(HLocClass node, Dictionary<string, HLocClass> map)
+        {
+            if (!string.IsNullOrEmpty(node.FullKey))
+            {
+                map[node.FullKey] = node;
+            }
+
+            if (node.children != null)
+            {
+                foreach (var child in node.children)
+                {
+                    PopulateHLocDictionary(child, map);
+                }
+            }
+        }
+
+        // Метод для оновлення значень у PremissionHLocClass
+        private static void UpdateValues(PremissionHLocClass node, Dictionary<string, HLocClass> hLocMap)
+        {
+            if (hLocMap.TryGetValue(node.FullKey, out var hLocNode))
+            {
+                node.Value = hLocNode.value; // Копіюємо значення з HLocClass у PremissionHLocClass
+            }
+
+            foreach (var child in node.Children)
+            {
+                UpdateValues(child, hLocMap);
+            }
+        }
+
+        static void convertloctotxt()
+        {
+            string locFolder = @"C:\Users\roman\OneDrive\Desktop\Hitman_Ukr\loc";
+            string[] files = Directory.GetFiles(locFolder, "*.LOC");
+
+            for (int i1 = 0; i1 < files.Length; i1++)
+            {
+                string file = files[i1];
+                string fileName = Path.GetFileName(file);
+                var newfile = Path.ChangeExtension(file, "txt");
+
+                Process process = new Process()
+                {
+                    StartInfo = new ProcessStartInfo
+                    {
+                        FileName = "hitmanki",
+                        Arguments = $"\"{file}\" \"{newfile}\"",
+                        RedirectStandardOutput = true,
+                        RedirectStandardError = true,
+                        UseShellExecute = false,
+                        CreateNoWindow = true
+                    }
+                };
+
+                Console.WriteLine($"Processing: {fileName} -> {newfile}");
+                process.Start();
+                process.WaitForExit();
+
+                string output = process.StandardOutput.ReadToEnd();
+                string error = process.StandardError.ReadToEnd();
+
+                if (!string.IsNullOrEmpty(output))
+                    Console.WriteLine(output);
+                if (!string.IsNullOrEmpty(error))
+                    Console.WriteLine($"Error: {error}");
+
+            }
+
+
+        }
+
+        static void ConvertFromTxtToLoc()
+        {
+            if (Directory.Exists(localPath + "\\txt2"))
+            {
+                Directory.Delete(localPath + "\\txt2", true);
+            }
+            Directory.CreateDirectory(localPath + "\\txt2");
+
+            string locDirectory = localPath + @"\loc";
+            string mainUkr = localPath + @"\json\main\main.json";
+            var jsonUkr = File.ReadAllTextAsync(mainUkr, Encoding.UTF8).GetAwaiter().GetResult();
+            var ukr = JsonConvert.DeserializeObject<HLocClass>(jsonUkr);
+            string textFolder = localPath + @"\txt";
+            string txt2Folder = localPath + @"\txt2";
+            string[] files = Directory.GetFiles(textFolder, "*.TXT");
+            for (int i1 = 0; i1 < files.Length; i1++)
+            {
+                string file = files[i1];
+                string fileName = Path.GetFileName(file);
+
+                var pathOriginal = files[i1];
+
+                var outputOriginal = txt2Folder + "\\" + fileName;
+                var lines = File.ReadAllText(pathOriginal, Encoding.UTF8);
+                var hloc = PremissionParser.Parse(lines);
+                var pathUkr = localPath + "\\json\\" + Path.ChangeExtension(fileName, "json");
+                var jsonText = File.ReadAllTextAsync(pathUkr, Encoding.UTF8).GetAwaiter().GetResult();
+                var hlocUkr = JsonConvert.DeserializeObject<HLocClass>(jsonText);
+                hlocUkr.children[0] = ukr;
+                UpdateFullKeys(hlocUkr);
+                UpdatePermissionValues(hloc, hlocUkr);
+                var output = PremissionParser.Serialize(hloc);
+                output = output.Substring(10);
+                output = output.Substring(0, output.Length - 3);
+                File.WriteAllText(outputOriginal, output, Encoding.UTF8);
+                var locfile = Path.ChangeExtension(fileName, "loc");
+                Process process = new Process()
+                {
+                    StartInfo = new ProcessStartInfo
+                    {
+                        FileName = "hitmanbe",
+                        Arguments = $"\"{outputOriginal}\" \"{locDirectory}\\{locfile}\"",
+                        RedirectStandardOutput = true,
+                        RedirectStandardError = true,
+                        UseShellExecute = false,
+                        CreateNoWindow = true
+                    }
+                };
+
+                Console.WriteLine($"Processing: {fileName} -> {locfile}");
+                process.Start();             
+                process.WaitForExit();
+
+                string outputc = process.StandardOutput.ReadToEnd();
+                string error = process.StandardError.ReadToEnd();
+
+                if (!string.IsNullOrEmpty(outputc))
+                    Console.WriteLine(outputc);
+                if (!string.IsNullOrEmpty(error))
+                    Console.WriteLine($"Error: {error}");
+            }
+            Directory.Delete(localPath + "\\txt2", true);
         }
 
         static void UpdateZip()
@@ -69,7 +228,7 @@ namespace ZipBuilder
                     archive.CreateEntryFromFile(filePath, entryPath, CompressionLevel.Optimal);
                 }
 
-                Console.WriteLine($"Файл {filePath} додано до архіву {archivePath}");              
+                Console.WriteLine($"Файл {filePath} додано до архіву {archivePath}");
             }
 
             if (File.Exists("Hitman_Ukr.zip"))
@@ -102,44 +261,12 @@ namespace ZipBuilder
         }
         static void CreateMainLocks()
         {
-            string jsonDirectory = localPath + @"\json";
+            string txtDirectory = localPath + @"\txt";
             string locDirectory = localPath + @"\loc";
-            string[] jsonFiles = Directory.GetFiles(jsonDirectory, "*.json");
+            string jsonDirectory = localPath + @"\json";
+            string[] txtFiles = Directory.GetFiles(txtDirectory, "*.txt");
 
-            foreach (string jsonFile in jsonFiles)
-            {
-
-                string fileName = Path.GetFileName(jsonFile);
-                if (fileName.ToUpperInvariant() == "M00_MAIN.JSON")
-                {
-                    continue;
-                }
-                string outputLocFile = Path.ChangeExtension(fileName, ".LOC");
-                Process process = new Process()
-                {
-                    StartInfo = new ProcessStartInfo
-                    {
-                        FileName = "locc",
-                        Arguments = $"--from=\"{jsonDirectory}\\{fileName}\" --to=\"{locDirectory}\\{outputLocFile}\" --mode=compile", //--mode=decompile --pretty-json=true
-                        RedirectStandardOutput = true,
-                        RedirectStandardError = true,
-                        UseShellExecute = false,
-                        CreateNoWindow = true
-                    }
-                };
-
-                Console.WriteLine($"Processing: {fileName} -> {outputLocFile}");
-                process.Start();
-                process.WaitForExit();
-
-                string output1 = process.StandardOutput.ReadToEnd();
-                string error1 = process.StandardError.ReadToEnd();
-
-                if (!string.IsNullOrEmpty(output1))
-                    Console.WriteLine(output1);
-                if (!string.IsNullOrEmpty(error1))
-                    Console.WriteLine($"Error: {error1}");
-            }
+            ConvertFromTxtToLoc();            
 
             //M00_MAIN.JSON
             string locFileM00 = locDirectory + "\\" + $"M00_main.LOC";

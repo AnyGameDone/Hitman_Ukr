@@ -14,5 +14,6 @@ namespace ZipBuilder
         public byte? org_tbyte { get; set; }
         public string type { get; set; }
         public string value { get; set; }
+        public string FullKey { get; set; }
     }
 }
