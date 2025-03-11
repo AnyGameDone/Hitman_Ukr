@@ -149,7 +149,7 @@
 		]
 		"Interface" [
 			"AccountBalance" = "БАЛАНС РАХУНКУ:"
-			"AcquireNewIdentity" = "ОТРИМАТИ НОВУ IДЕНТИЧНIСТЬ"
+			"AcquireNewIdentity" = "НОВА IДЕНТИЧНIСТЬ"
 			"AddNewFriend" = "ADD NEW FRIEND  {ZW_SELECT4}"
 			"Age" = "Age:"
 			"AllMustHaveCharacters" = "~"
@@ -203,7 +203,7 @@ installed. Press {ZW_SELECT} to update or {ZW_SELECT3} to cancel."
 ВИ ПРОСТО ПЕРЕСТАНЕТЕ
 IСНУВАТИ.
 
-ОТРИМАТИ НОВУ IДЕНТИЧНIСТЬ
+НОВА IДЕНТИЧНIСТЬ
 ЦЕ ЗIБ'Э РЕЙТИНГ ВАШОЁ
 ВПIЗНАВАНОСТI (ДО 100 ОЧОК)."
 				"txtBribeIdentityTitle" = "НОВА IДЕНТИЧНIСТЬ:"
