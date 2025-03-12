@@ -6454,7 +6454,7 @@
         {
           "name": "Optional",
           "org_tbyte": 9,
-          "value": "ПОБОЧНА МЕТА",
+          "value": "ДОДАТКОВА ЦIЛЬ",
           "numChildren": 0,
           "type": "data"
         },
@@ -6747,7 +6747,7 @@
                 {
                   "name": "ScreenResolution",
                   "org_tbyte": 9,
-                  "value": "ДОЗВIЛ ЕКРАНУ",
+                  "value": "РОЗШИРЕННЯ ЕКРАНУ",
                   "numChildren": 0,
                   "type": "data"
                 },
@@ -6768,14 +6768,14 @@
                 {
                   "name": "TextureResolution",
                   "org_tbyte": 9,
-                  "value": "ДОЗВОЛ ТЕКСТУР",
+                  "value": "РОЗШИРЕННЯ ТЕКСТУР",
                   "numChildren": 0,
                   "type": "data"
                 },
                 {
                   "name": "VSync",
                   "org_tbyte": 9,
-                  "value": "ВIРТ. СИНХРОНIЗАЦIЯ",
+                  "value": "ВЕРТ. СИНХРОНIЗАЦIЯ",
                   "numChildren": 0,
                   "type": "data"
                 },
@@ -6863,7 +6863,7 @@
             {
               "name": "TurnSpeed",
               "org_tbyte": 9,
-              "value": "ШВИДКIСТЬ РОЗВИТКУ",
+              "value": "ШВИДКIСТЬ ПОВОРОТУ",
               "numChildren": 0,
               "type": "data"
             },
@@ -6930,7 +6930,7 @@
         {
           "name": "PrimaryTargetsKilled",
           "org_tbyte": 9,
-          "value": "ОСНОВНА МЕТА ЗНИЩЕНА",
+          "value": "ОСНОВНА ЦIЛЬ ЗНИЩЕНА",
           "numChildren": 0,
           "type": "data"
         },
@@ -7280,7 +7280,7 @@
         {
           "name": "Target",
           "org_tbyte": 9,
-          "value": "МЕТА",
+          "value": "ЦIЛЬ",
           "numChildren": 0,
           "type": "data"
         },
@@ -12757,7 +12757,7 @@
             {
               "name": "Description",
               "org_tbyte": 9,
-              "value": "Ключ-карта 7 поверху готелю \"Шамаль\". Вiдкриваэ номер 803, де мешкаэ мета - вчений Тарiк Абдул Латiф",
+              "value": "Ключ-карта 7 поверху готелю \"Шамаль\". Вiдкриваэ номер 803, де мешкаэ цiль - вчений Тарiк Абдул Латiф",
               "numChildren": 0,
               "type": "data"
             },
@@ -15144,7 +15144,7 @@
             {
               "name": "Target",
               "org_tbyte": 9,
-              "value": "МЕТА",
+              "value": "ЦIЛЬ",
               "numChildren": 0,
               "type": "data"
             },
