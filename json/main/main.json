@@ -12897,21 +12897,21 @@
             {
               "name": "Description",
               "org_tbyte": 9,
-              "value": "Ключ-карта вiд головноё будiвлi Бiлого дому",
+              "value": "Ключ-карта вiд головного корпусу Бiлого дому",
               "numChildren": 0,
               "type": "data"
             },
             {
               "name": "Longname",
               "org_tbyte": 9,
-              "value": "Ключ-карта вiд головноё будiвлi",
+              "value": "Ключ-карта вiд головного корпусу",
               "numChildren": 0,
               "type": "data"
             },
             {
               "name": "Shortname",
               "org_tbyte": 9,
-              "value": "КЛЮЧ-КАРТА ВIД ГОЛОВНОЁ БУДIВЛI",
+              "value": "КЛЮЧ-КАРТА ВIД ГОЛОВНОГО КОРПУСУ",
               "numChildren": 0,
               "type": "data"
             }
