@@ -16,28 +16,28 @@
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "شغيل جهاز الانذار"
+              "value": "Пожежна тривога"
             },
             {
               "name": "BreakUtilBox",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "عطّل علبة الفيوز"
+              "value": "Зламати електрощит"
             },
             {
               "name": "CallElevator",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "استدعاء المصعد"
+              "value": "Викликати лiфт"
             },
             {
               "name": "Cancel",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "الغاء"
+              "value": "Скасувати"
             },
             {
               "name": "ClimbHatch",
@@ -58,7 +58,7 @@
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "اغلق الباب"
+              "value": "Закрити дверi"
             },
             {
               "name": "Combine",
@@ -79,7 +79,7 @@
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "اترك الجثّه"
+              "value": "Позбутися тiла"
             },
             {
               "name": "DragBody",
