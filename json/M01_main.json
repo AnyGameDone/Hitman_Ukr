@@ -16,49 +16,49 @@
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Пожежна тривога"
+              "value": "فعّل جهاز الانذار"
             },
             {
               "name": "BreakUtilBox",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Зламати електрощит"
+              "value": "عطّل المحوّل"
             },
             {
               "name": "CallElevator",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Викликати лiфт"
+              "value": "استدع المصعد"
             },
             {
               "name": "Cancel",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Скасувати"
+              "value": "االغاء"
             },
             {
               "name": "ClimbHatch",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Влiзти в люк"
+              "value": "اصعد"
             },
             {
               "name": "Close Lid",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Опустити кришку"
+              "value": "اغلاق"
             },
             {
               "name": "CloseDoor",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Закрити дверi"
+              "value": "اغلق الباب"
             },
             {
               "name": "Combine",
@@ -72,42 +72,42 @@
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Приховати"
+              "value": "خبّئ السلاح"
             },
             {
               "name": "DisposeBody",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Позбутися тiла"
+              "value": "تخلّص من الجثّه"
             },
             {
               "name": "DragBody",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Тягти тiло"
+              "value": "اسحب الجثّه"
             },
             {
               "name": "DropBody",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Кинути тiло"
+              "value": "اترك الجثّه"
             },
             {
               "name": "Escape",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Втекти"
+              "value": "خروج"
             },
             {
               "name": "ExitCloset",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Вийти з шафи"
+              "value": "اخرج من الخزانة"
             },
             {
               "name": "ExitHideout",
@@ -128,7 +128,7 @@
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Взяти"
+              "value": "امسك"
             },
             {
               "name": "HideBodyTable",
@@ -191,14 +191,14 @@
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Пiдняти кришку"
+              "value": "افتح الصندوق"
             },
             {
               "name": "OpenDoor",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Вiдкрити дверi"
+              "value": "افتح الباب"
             },
             {
               "name": "OperateDoor",
@@ -310,7 +310,7 @@
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Задушити"
+              "value": "اخنق"
             },
             {
               "name": "Surrend Weapons",
@@ -324,7 +324,7 @@
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Одяг"
+              "value": "بدّل ملابسك"
             },
             {
               "name": "Talk",
