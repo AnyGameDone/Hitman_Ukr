@@ -9,35 +9,35 @@
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Action kill"
+              "value": "قتل"
             },
             {
               "name": "Activate Firealarm",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Пожежна тривога"
+              "value": "فعّل جهاز الانذار"
             },
             {
               "name": "BreakUtilBox",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Зламати електрощит"
+              "value": "تعطيل المحوّل"
             },
             {
               "name": "CallElevator",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Викликати лiфт"
+              "value": "استدع المصعد"
             },
             {
               "name": "Cancel",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Скасувати"
+              "value": "إلغاء"
             },
             {
               "name": "ClimbHatch",
@@ -51,14 +51,14 @@
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Опустити кришку"
+              "value": "اغلاق"
             },
             {
               "name": "CloseDoor",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Закрити дверi"
+              "value": "اغلاق الباب"
             },
             {
               "name": "Combine",
@@ -79,14 +79,14 @@
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Позбутися тiла"
+              "value": "تخلص من الجثّه"
             },
             {
               "name": "DragBody",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Тягти тiло"
+              "value": "اسحب الجثّه"
             },
             {
               "name": "DropBody",
@@ -100,7 +100,7 @@
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Втекти"
+              "value": "اهرب"
             },
             {
               "name": "ExitCloset",
@@ -163,7 +163,7 @@
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Живий щит"
+              "value": "استخدم كدرع بشري"
             },
             {
               "name": "HumanShieldRelease",
@@ -191,7 +191,7 @@
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Пiдняти кришку"
+              "value": "افتح الصندوق"
             },
             {
               "name": "OpenDoor",
@@ -212,7 +212,7 @@
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Зламати замок"
+              "value": "افتح القفل"
             },
             {
               "name": "Pickup",
