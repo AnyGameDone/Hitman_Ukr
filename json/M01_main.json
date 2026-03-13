@@ -9,784 +9,372 @@
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Action kill"
+              "value": "قتل سريع"
             },
             {
               "name": "Activate Firealarm",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Пожежна тривога"
+              "value": "تشغيل إنذار الحريق"
             },
             {
               "name": "BreakUtilBox",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Зламати електрощит"
+              "value": "كسر صندوق الكهرباء"
             },
             {
               "name": "CallElevator",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Викликати лiфт"
+              "value": "استدعاء المصعد"
             },
             {
               "name": "Cancel",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Скасувати"
+              "value": "إلغاء"
             },
             {
               "name": "ClimbHatch",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Влiзти в люк"
+              "value": "الدخول عبر الفتحة"
             },
             {
               "name": "Close Lid",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Опустити кришку"
+              "value": "إغلاق الغطاء"
             },
             {
               "name": "CloseDoor",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Закрити дверi"
+              "value": "إغلاق الباب"
             },
             {
               "name": "Combine",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Поэднати"
+              "value": "دمج"
             },
             {
               "name": "ConcealWeapon",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Приховати"
+              "value": "إخفاء"
             },
             {
               "name": "DisposeBody",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Позбутися тiла"
+              "value": "التخلص من الجثة"
             },
             {
               "name": "DragBody",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Тягти тiло"
+              "value": "سحب الجثة"
             },
             {
               "name": "DropBody",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Кинути тiло"
+              "value": "إسقاط الجثة"
             },
             {
               "name": "Escape",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Втекти"
+              "value": "الهروب"
             },
             {
               "name": "ExitCloset",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Вийти з шафи"
+              "value": "الخروج من الخزانة"
             },
             {
               "name": "ExitHideout",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Вийти зi сховища"
+              "value": "الخروج من المخبأ"
             },
             {
               "name": "ExitKeyhole",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Вiдiйти вiд щiлини"
+              "value": "الابتعاد عن ثقب الباب"
             },
             {
               "name": "Grab",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Взяти"
+              "value": "الإمساك"
             },
             {
               "name": "HideBodyTable",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Сховати тiло"
+              "value": "إخفاء الجثة"
             },
             {
               "name": "HideInBed",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Сховати у лiжку"
+              "value": "الاختباء في السرير"
             },
             {
               "name": "HideInCloset",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Сховатись у шафi"
+              "value": "الاختباء في الخزانة"
             },
             {
               "name": "HideWeapon",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Сховати зброю"
+              "value": "إخفاء السلاح"
             },
             {
               "name": "HumanShield",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Живий щит"
+              "value": "درع بشري"
             },
             {
               "name": "HumanShieldRelease",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Оглушити жертву"
+              "value": "إغماء الضحية"
             },
             {
               "name": "LockDoor",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Зачинити дверi"
+              "value": "إقفال الباب"
             },
             {
               "name": "LookKeyhole",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Заглянути у щiлину"
+              "value": "النظر عبر ثقب الباب"
             },
             {
               "name": "Open Lid",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Пiдняти кришку"
+              "value": "فتح الغطاء"
             },
             {
               "name": "OpenDoor",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Вiдкрити дверi"
+              "value": "فتح الباب"
             },
             {
               "name": "OperateDoor",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Використовувати дверi"
+              "value": "استخدام الباب"
             },
             {
               "name": "PickLock",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Зламати замок"
+              "value": "فتح القفل"
             },
             {
               "name": "Pickup",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Пiдiбрати: %s"
+              "value": "التقاط: %s"
             },
             {
               "name": "PickupBody",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Пiдняти тiло"
+              "value": "رفع الجثة"
             },
             {
               "name": "PickupClothes",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Одяг"
+              "value": "ملابس"
             },
             {
               "name": "Place",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Покласти"
+              "value": "وضع"
             },
             {
               "name": "PlaceBomb",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Закласти мiну"
+              "value": "زرع قنبلة"
             },
             {
               "name": "PlaceItem",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Покласти:"
+              "value": "وضع:"
             },
             {
               "name": "PutInSuitcase",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Покласти у кейс"
+              "value": "وضع في الحقيبة"
             },
             {
               "name": "PutItemElev",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Покласти до лiфта"
+              "value": "وضع في المصعد"
             },
             {
               "name": "PutToPos",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Покласти"
+              "value": "وضع"
             },
             {
               "name": "Release",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Вiдпустити"
+              "value": "إطلاق"
             },
             {
               "name": "Retrieve",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Дiстати"
+              "value": "استرجاع"
             },
             {
               "name": "RetrieveItem",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Дiстати предмет"
+              "value": "استرجاع العنصر"
             },
             {
               "name": "StealTape",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Вкрасти вiдеокасету"
+              "value": "سرقة شريط الفيديو"
             },
             {
               "name": "Strangle",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Задушити"
+              "value": "خنق"
             },
             {
               "name": "Surrend Weapons",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Здати зброю"
+              "value": "تسليم الأسلحة"
             },
             {
               "name": "TakeClothes",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Одяг"
+              "value": "ملابس"
             },
             {
               "name": "Talk",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Поговорити"
+              "value": "التحدث"
             },
             {
               "name": "ThrowIntoChute",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Скинути"
+              "value": "رمي في الممر"
             },
             {
               "name": "ThrowOverRail",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Скинути через перила"
+              "value": "رمي عبر الدرابزين"
             },
             {
               "name": "ToggleLight",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Клацнути вимикачем"
+              "value": "تشغيل المفتاح"
             },
             {
               "name": "UnlockDoor",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Вiдчинити дверi"
+              "value": "فتح الباب"
             },
             {
               "name": "UseHMWeaponStorage",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Покласти зброю"
+              "value": "وضع السلاح"
             },
             {
               "name": "UseKeyCard",
               "numChildren": 0,
               "org_tbyte": 9,
               "type": "data",
-              "value": "Використовувати ключ-картку"
+              "value": "استخدام بطاقة المفتاح"
             }
-          ],
-          "name": "Actions",
-          "numChildren": 53,
-          "type": "node"
-        },
-        {
-          "children": [
-            {
-              "name": "Afrikaaner",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "Хендрiка Шмутца"
-            },
-            {
-              "name": "BodyguardSheik",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "охоронця шейха"
-            },
-            {
-              "name": "CasinoStaff",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "спiвробiтника казино"
-            },
-            {
-              "name": "GuardCasino",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "охоронця казино"
-            },
-            {
-              "name": "M00_Chemist",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "хiмiка"
-            },
-            {
-              "name": "M01_ChileanGuard",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "охоронця"
-            },
-            {
-              "name": "M01_DrugLabWorker",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "робiтника"
-            },
-            {
-              "name": "M01_SoldierChileanMilitia",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "VIP охоронця"
-            },
-            {
-              "name": "M01_TVCrew",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "телеоператора"
-            },
-            {
-              "name": "M02_BodyGuard",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "охоронця"
-            },
-            {
-              "name": "M02_Chef",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "офiцiанта"
-            },
-            {
-              "name": "M02_Guest",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "гостя"
-            },
-            {
-              "name": "M02_Photographer",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "фотографа"
-            },
-            {
-              "name": "M02_Pilot",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "пiлота"
-            },
-            {
-              "name": "M02_Santa",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "Санта-Клауса"
-            },
-            {
-              "name": "M02_VipGuest",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "VIP гостя"
-            },
-            {
-              "name": "M02_Waiter",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "бармена"
-            },
-            {
-              "name": "M02_XmasGuard",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "рiздвяного охоронця"
-            },
-            {
-              "name": "M03_Actor",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "актора"
-            },
-            {
-              "name": "M03_BodyGuard",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "охоронця"
-            },
-            {
-              "name": "M03_Executioner",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "ката"
-            },
-            {
-              "name": "M03_Guard",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "охоронця"
-            },
-            {
-              "name": "M03_Worker",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "робiтника"
-            },
-            {
-              "name": "M04_GuardHospitalMale",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "охоронця клiнiки"
-            },
-            {
-              "name": "M04_Patient",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "пацiэнта"
-            },
-            {
-              "name": "M04_PatientBodyguard",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "охоронця пацiэнта"
-            },
-            {
-              "name": "M04_Therapist",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "терапевта"
-            },
-            {
-              "name": "M04_Warden",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "санiтара"
-            },
-            {
-              "name": "M05_Caterer",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "постачальника провiзiё"
-            },
-            {
-              "name": "M05_Clown",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "клоуна"
-            },
-            {
-              "name": "M05_FBI",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "агента ФБР"
-            },
-            {
-              "name": "M05_Garbageman",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "Смiттяра"
-            },
-            {
-              "name": "M05_Poolcleaner",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "чистильника басейнiв"
-            },
-            {
-              "name": "M06_Birdpurple",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "Реймонда"
-            },
-            {
-              "name": "M06_Birdred",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "кур'эра"
-            },
-            {
-              "name": "M06_Birdyellow",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "охоронця-птицi"
-            },
-            {
-              "name": "M06_Bluesguest",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "блюзмена"
-            },
-            {
-              "name": "M06_Chef",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "кухаря"
-            },
-            {
-              "name": "M06_Police",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "полiцейського"
-            },
-            {
-              "name": "M06_Rockguest",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "рок-спiвака"
-            },
-            {
-              "name": "M06_Salsaguest",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "виконавця сальси"
-            },
-            {
-              "name": "M06_Waiter",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "офiцiанта"
-            },
-            {
-              "name": "M08_EngineRoomCrew",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "iнженера"
-            },
-            {
-              "name": "M08_Sailor",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "матроса"
-            },
-            {
-              "name": "M08_Suit",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": ": костюм"
-            },
-            {
-              "name": "M08_Tuxedo",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": ": смокiнг"
-            },
-            {
-              "name": "M08_VIPWaiter",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "стюарда 1-го класу"
-            },
-            {
-              "name": "M08_WaiterGator",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "стюарда"
-            },
-            {
-              "name": "M09_Guest",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "гостя"
-            },
-            {
-              "name": "M09_Priest",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "священика"
-            },
-            {
-              "name": "M09_Waiter",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "офiцiанта"
-            },
-            {
-              "name": "M09_WeddingGangMember",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "гангстера"
-            },
-            {
-              "name": "M11_GuestMaleHeaven",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "гостя (рай)"
-            },
-            {
-              "name": "M11_GuestMaleHell",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "гостя (пекло)"
-            },
-            {
-              "name": "M11_GuestMale_CIA",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "агента ЦРУ"
-            },
-            {
-              "name": "M11_PartyGuardHeaven",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "охоронця (рай)"
-            },
-            {
-              "name": "M11_PartyGuardHell",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "охоронця (пекло)"
-            },
-            {
-              "name": "M11_PartyGuardOfficeSecurity",
-              "numChildren": 0,
-              "org_tbyte": 9,
-              "type": "data",
-              "value": "офiсного охоронця"
             },
             {
               "name": "M11_Staff",
